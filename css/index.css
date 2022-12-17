@@ -1,6 +1,10 @@
 * {
 	box-sizing: border-box;
 }
+a{
+	text-decoration: none;
+	color: #000;
+}
 body{
 	font-family: 'Inter', sans-serif;
 	border-color: #F5F5F5;
@@ -13,7 +17,7 @@ body{
 	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
 	border-radius: 10px;
 	overflow: hidden;
-	
+	padding-bottom: 53px;
 }
 .header {
 	background: linear-gradient(0deg, rgba(63, 65, 52, 0.5), rgba(63, 65, 52, 0.5)), url(../img/bg.png) no-repeat center / cover;
@@ -36,6 +40,7 @@ body{
 	border-radius: 10px;
 	margin-top: -38px;
 	padding-bottom: 8px;
+	margin-bottom: 29px;
 }
 .user-avatar{
 	object-fit: cover;
@@ -56,4 +61,78 @@ body{
 	line-height: 15px;
 	color: #717171;
 	margin: 0;
+}
+.cards{
+	text-align: center;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	padding: 17px 30px 55px;
+}
+.buttons{
+	display: flex;
+	justify-content: space-between;
+	max-width: 266px;
+	gap: 10px;
+	margin-bottom: 23px;
+}
+.button{
+	height: 30px;
+	width: 100%;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wsup{
+	background-color: #80d25b;
+}
+.vk{
+	background-color: #4680c2;
+}
+.line{
+	max-width: 127px;
+	margin-bottom: 27px;
+}
+.lessons{
+	margin-bottom: 55px;
+}
+.card_lesson {
+	display: flex;
+	align-items: center;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	padding: 10px 13px;
+	margin-bottom: 11px;
+}
+.card_plus_box {
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+	border-radius: 50%;
+	padding: 11px;
+	display: flex;
+	align-items: center;
+	margin-right: 35px;
+}
+.card_lesson-text {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+}
+.register_box {
+	background: #5EF880;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 14px 62px;
+	max-width: 222px;
+	margin: auto;
+}
+.register_text {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
 }
